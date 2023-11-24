@@ -3,13 +3,10 @@
 def print_fibonacci(length):
     if length ==0:
         print([])
-        return []
     elif length==1:
         print([0])
-        return [0]
     elif length==2:
-        print([0,1])
-        return [0,1]
+        print([0,1])              
     else:
         print ([0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
     
